@@ -1,3 +1,65 @@
+## Lab Exercise: Course and Instructor Classes
+
+Create a Python program containing two classes: `Course` and `Instructor`.
+
+### 1. Course class
+
+Create a class named `Course` with the following attributes:
+
+* Course name
+* Course code
+* Number of students
+* Instructor
+
+Add a method named `display_course()` to display all the course information.
+
+### 2. Instructor class
+
+Create a class named `Instructor` with the following attributes:
+
+* Instructor ID
+* Instructor name
+
+Add a method named `display_instructor()` to display the instructor’s information.
+
+### 3. Assign an instructor
+
+Each course must have one instructor.
+
+Create a method named `assign_instructor()` in the `Course` class. The method receives an `Instructor` object and assigns it to the course.
+
+### 4. Test your program
+
+Create:
+
+* Two instructor objects
+* Two course objects
+* Assign one instructor to each course
+* Display the information for both courses
+
+### Expected output
+
+```text
+Course Code: CPAN101
+Course Name: Introduction to Python
+Number of Students: 25
+Instructor: Mary Smith
+
+Course Code: CPAN202
+Course Name: Data Structures
+Number of Students: 30
+Instructor: Ahmed Ali
+```
+
+### Submission
+
+Submit one Python file named:
+
+```text
+StudentName_CourseLab.py
+```
+
+#---
 # Lab: Course and Instructor Management System
 
 ## Objective
